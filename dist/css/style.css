@@ -496,7 +496,16 @@ body::after {
   color: #000
 }
 .hero-thanks {
-  background: center/cover url(../img/thanks.webp) no-repeat
+  margin-top: -11.25rem;
+  padding-top: 14.375rem;
+  background: center/cover url(../img/thanks.webp) no-repeat;
+  color: #fff
+}
+.hero-thanks .hero__container {
+  background: 0 0
+}
+.hero-thanks .hero__container a {
+  background: #74746e
 }
 .hero__container {
   font-family: Montserrat;
@@ -1511,6 +1520,9 @@ body::after {
   }
   .footer__left {
     max-width: 100%
+  }
+  .hero__container {
+    background-position: left 65% center
   }
   .hero__items {
     gap: .625rem
